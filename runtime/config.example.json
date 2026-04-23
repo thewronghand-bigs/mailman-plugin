@@ -1,0 +1,14 @@
+{
+  "spaces": {
+    "team": {
+      "url": "https://chat.google.com/u/0/app/chat/YOUR_SPACE_ID",
+      "webhookUrl": "",
+      "bots": {
+        "specbot": "Spec Bot"
+      },
+      "defaultBot": "specbot",
+      "mentionFilter": "@홍길동"
+    }
+  },
+  "defaultSpace": "team"
+}

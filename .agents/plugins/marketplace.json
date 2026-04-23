@@ -1,0 +1,20 @@
+{
+  "name": "company-local",
+  "interface": {
+    "displayName": "Company Local"
+  },
+  "plugins": [
+    {
+      "name": "mailman",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mailman"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "mailman-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Snapshot import runtime for the Mailman Codex Desktop plugin",
+  "type": "module"
+}
