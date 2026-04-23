@@ -1,9 +1,15 @@
 #!/bin/bash
-set -euo pipefail
+# mailman-plugin: 수집+출력 래퍼
+# 사용: fetch.sh [스페이스별칭] [봇별칭] [개수]
+
+set -o pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-if [ -z "${PATH_ADDED:-}" ]; then
+# 수집 시도 (실패해도 기존 DB 내용은 그대로 출력)
+bash "$SCRIPT_DIR/run.sh" "$@" > /dev/null 2>&1 || true
+
+if [ -z "$PATH_ADDED" ]; then
   export PATH="$HOME/.bun/bin:$HOME/.nvm/versions/node/v24.11.1/bin:/usr/local/bin:/opt/homebrew/bin:$PATH"
   export PATH_ADDED=1
 fi
