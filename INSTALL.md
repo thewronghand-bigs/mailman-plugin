@@ -9,6 +9,12 @@
 ## 설치
 
 ```bash
+curl -fsSL https://raw.githubusercontent.com/thewronghand-bigs/mailman-plugin/main/install.sh | bash
+```
+
+또는 직접 clone:
+
+```bash
 git clone https://github.com/thewronghand-bigs/mailman-plugin.git
 cd mailman-plugin
 bash bootstrap.sh
