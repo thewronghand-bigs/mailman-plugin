@@ -25,7 +25,7 @@ import { parseSnapshotJson } from "./snapshot";
 const paths = getRuntimePaths(import.meta.url);
 const config = loadConfig(paths.scriptDir);
 const chromePath = resolveChromePath();
-const HEADLESS = process.env.MAILMAN_HEADLESS === "1";
+const HEADLESS = process.env.MAILMAN_HEADLESS !== "0";
 const DEBUG = process.env.MAILMAN_DEBUG === "1";
 const DRIVER = process.env.MAILMAN_DRIVER || "playwright";
 const SNAPSHOT_FILE = process.env.MAILMAN_SNAPSHOT_FILE || "";
