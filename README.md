@@ -78,6 +78,14 @@ Codex Desktop을 재시작하면 `@mailman`으로 사용 가능합니다.
 | Codex에서 @mailman이 안 보임 | Codex Desktop 재시작 |
 | DB 초기화하고 싶음 | `sqlite3 ~/.mailman/inbox/mailman.db "DELETE FROM messages; DELETE FROM meta;"` |
 
+## 삭제
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/thewronghand-bigs/mailman-plugin/main/uninstall.sh | bash
+```
+
+수집 데이터(`~/.mailman`)는 자동 삭제되지 않습니다. 완전히 지우려면 `rm -rf ~/.mailman`.
+
 ## 원본
 
 Claude Code용 전체 런타임은 [claude-mailman](https://github.com/thewronghand-bigs/mailman)에 있습니다.
