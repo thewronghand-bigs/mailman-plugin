@@ -41,4 +41,5 @@ bash ~/plugins/mailman/runtime/fetch.sh [스페이스별칭] [봇별칭] [개수
 
 - 브라우저를 직접 열거나 DOM을 추출하지 마라.
 - config.json, fetch.sh, run.sh 등 내부 파일을 읽거나 탐색하지 마라.
+- 샌드박스에서 실행하지 마라. 반드시 로컬 셸에서 실행하라. Playwright는 로컬 Chrome 프로필이 필요하다.
 - 명령어 하나로 끝나는 작업이다. 경로 확인, 도구 검색 등 불필요한 탐색을 하지 마라.
