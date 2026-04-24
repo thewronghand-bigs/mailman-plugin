@@ -1,0 +1,39 @@
+{
+  "name": "mailman",
+  "version": "0.1.0",
+  "description": "Google Chat 봇 메시지를 수집해 Codex 대화에 삽입하는 플러그인.",
+  "author": {
+    "name": "thewronghand-bigs",
+    "url": "https://github.com/thewronghand-bigs"
+  },
+  "homepage": "https://github.com/thewronghand-bigs/mailman-plugin",
+  "repository": "https://github.com/thewronghand-bigs/mailman-plugin",
+  "license": "MIT",
+  "keywords": [
+    "google-chat",
+    "mailman",
+    "api-spec"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Mailman",
+    "shortDescription": "Google Chat에서 API 스펙 메시지를 가져옵니다.",
+    "longDescription": "Playwright로 Google Chat DM에서 봇 메시지를 수집하고, SQLite에 저장한 뒤 최근 스레드를 Codex 대화에 삽입합니다.",
+    "developerName": "thewronghand-bigs",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/thewronghand-bigs/mailman-plugin",
+    "defaultPrompt": [
+      "mailman으로 최근 스펙 가져와",
+      "tn 방에서 최근 메시지 3개 가져와",
+      "API 스펙 컨텍스트에 넣어줘"
+    ],
+    "composerIcon": "./assets/mailman-small.png",
+    "logo": "./assets/mailman.png",
+    "screenshots": [],
+    "brandColor": "#2563EB"
+  }
+}
