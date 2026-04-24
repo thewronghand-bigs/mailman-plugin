@@ -1,6 +1,6 @@
 ---
-name: mailman-send
-description: Google Chat 스페이스에 메시지를 전송한다 (webhook)
+name: mailman-post
+description: Google Chat 스페이스에 webhook으로 메시지를 전송
 user-invokable: true
 argument-hint: "[스페이스별칭]"
 ---

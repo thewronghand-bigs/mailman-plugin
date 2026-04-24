@@ -1,6 +1,6 @@
 ---
-name: mailman
-description: Google Chat에서 수집한 최신 메시지(API 스펙 등) 가져오기
+name: mailman-get
+description: Google Chat에서 최신 메시지(API 스펙 등)를 수집해 현재 대화에 삽입
 user-invokable: true
 argument-hint: "[스페이스별칭] [봇별칭] [개수=5]"
 ---
