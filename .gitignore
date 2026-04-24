@@ -1,6 +1,4 @@
 node_modules/
 runtime/config.json
-skills/mailman-handoff/references/mention-map.json
-skills/mailman-handoff/references/webhook-map.json
 .mailman/
 .DS_Store

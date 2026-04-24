@@ -1,4 +1,0 @@
-interface:
-  display_name: "Google Chat Dev Handoff"
-  short_description: "Google Chat으로 개발 변경사항을 요약·전송합니다."
-  default_prompt: "Use $google-chat-dev-handoff to draft or send a Google Chat handoff message for completed engineering work."

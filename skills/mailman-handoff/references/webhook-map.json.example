@@ -1,8 +1,0 @@
-{
-  "channels": {
-        "main": {
-          "displayName": "프론트 공유방",
-          "webhookUrl": "https://chat.googleapis.com/v1/spaces/AAA.../messages?key=...&token=..."
-        }
-      }
-}

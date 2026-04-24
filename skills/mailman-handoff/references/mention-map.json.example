@@ -1,9 +1,0 @@
-{
-  "users": {
-        "lee-uihyeon": {
-          "displayName": "이의현",
-          "token": "<users/123456789012345678901>",
-          "fallbackText": "@이의현"
-        }
-      }
-}
